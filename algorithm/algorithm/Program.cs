@@ -6,7 +6,8 @@ namespace algorithm
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            //В ПРОЦЕССЕ. Курим мат.часть и тупим. 
+
         }
     }
 }
