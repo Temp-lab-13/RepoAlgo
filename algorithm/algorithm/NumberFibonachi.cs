@@ -24,6 +24,21 @@ namespace algorithm
                 Fibonachi++;
             }
             return start;
+
+//            try попытка вписать проверочный код.
+//            {
+//                if (F != 0)
+//                {
+//                    Console.WriteLine("Ошибка!");
+//                }
+//;
+              
+                
+//            }
+//            catch
+//            {
+//                Console.WriteLine("Число 0 или меньше!");
+//            }
         }
 
         public static decimal NumRecFibonachi(int F, decimal fNum1 = 1, decimal fNum2 = 1)
