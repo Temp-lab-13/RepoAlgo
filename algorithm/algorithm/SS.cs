@@ -14,16 +14,16 @@ namespace algorithm
             {
                 for (int j = 0; j < inputArray.Length; j++) //O(N)
                 {
-                    for (int k = 0; k < inputArray.Length; k++) //O(N)
+                    for (int k = 0; k < inputArray.Length; k++) //O(N) +
                     {
-                        int y = 0; 
+                        int y = 0;  //O(1) +
 
-                        if (j != 0) 
+                        if (j != 0)  //O(1N) +
                         {
-                            y = k / j; 
+                            y = k / j;  //O(1N) +
                         }
 
-                        sum += inputArray[i] + i + k + j + y; //O(4N)
+                        sum += inputArray[i] + i + k + j + y; // O(1N)
                     }
                 }
             }
@@ -31,6 +31,7 @@ namespace algorithm
             return sum; //O(1)
         }
 
+        //Итого: O(3 + (N * N * 3N))
         
    
        
